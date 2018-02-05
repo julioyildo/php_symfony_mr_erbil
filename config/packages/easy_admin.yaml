@@ -1,0 +1,17 @@
+easy_admin:
+    entities:
+        Clothes:
+              class: App\Entity\Clothes
+              title: 'Vetements'
+              form:
+                  fields:
+                      - { property: 'name', label: 'Nom du vetement'}
+                      - { property: 'price', label: 'Prix du vetement'}
+                      - { property: 'size', label: 'Taille du vetement'}
+                      - { property: 'description', label: 'Description du vetement'}
+                      - { property: 'firstImageFile', type: 'vich_image', base_path: '%app.path.product_images%', label: 'Image vetement'}
+              list:
+                  title: "Clothes"
+                  fields:
+                    - { property: 'name', label: 'Nom du vetement'}
+                    - { property: 'price', label: 'Prix du vetement'}

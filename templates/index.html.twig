@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{# surcharge le block body du template base #}
+{# on peut aussi faire des includes de petits codes réutilisables #}
+
+{% block content %}
+    {# #}
+
+    <h2>titre</h2>
+    {% for clothe in clothes %}
+        <h1>{{ clothe.name }}</h1>
+        <p>{{ clothe.size }}</p>
+        <p>{{ clothe.price }}</p>
+        <img src="/uploads/{{ clothe.firstImage }}" alt="{{ clothe.name }}">
+
+    {% endfor %}
+{% endblock %}
