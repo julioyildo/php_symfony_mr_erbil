@@ -12,7 +12,7 @@ composer install
 ```
 2 Install vendors by running
 ```sh
-php bin/console server/run
+php bin/console server:run
 ```
 3 Install Bower and bower dependencies which are Gulp tools *(gulp-concat, gulp-stylus, gulp-sass, gulp-uglify etc..)*
 ```sh
