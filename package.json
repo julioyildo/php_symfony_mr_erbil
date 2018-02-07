@@ -1,0 +1,30 @@
+{
+  "name": "mr_erbil",
+  "version": "1.0.0",
+  "description": "First symfony website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serhat YILDIRIM",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "5.1.0",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-stylus": "*",
+    "gulp-uglify": "*",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+
+  }
+}
