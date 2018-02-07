@@ -1,9 +1,7 @@
 # Symfony 3.4 base application
 This is a Symfony 3.4 base application with:
   - [EasyAdminBundle]
-  - [VichUploaderBundle]
-  - [Twitter Bootstrap]
-  - [Gulp] for managing assets
+  - [Gulp] 
 
 # Installation 
 1 Install vendors by running
